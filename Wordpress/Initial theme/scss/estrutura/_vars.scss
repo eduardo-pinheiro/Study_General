@@ -1,0 +1,40 @@
+// Variaveis do grid
+$cols: 12;
+$gutter: 20px;
+$container: 1200px;
+$desktop-device: 1200px;
+$tablet-device: 768px; 
+$mobile-device: 480px; 
+
+//Cores do tema
+$soft: #FFFFFF;
+    $soft_white: rgba(255,255,255,0.3);
+
+$heavy: #000000;
+    $heavy_easy: rgba(0,0,0,0.3);
+    $heavy_medium: rgba(0,0,0,0.6);
+    $heavy_hard: rgba(0,0,0,0.9);
+
+//Font Size do tema
+$fontsize_context: 62.5%; 
+    $fontsize_porcent_tablet: 80;
+    $fontsize_porcent_mobile: 65; 
+    
+    $font_large: 4.5rem; // tablet = 3.6 | mobile = 2.925
+    $font_medium: 3rem; // tablet = 2.4 | mobile = 1.95
+    $font_small: 2rem; // tablet = 1.6 | mobile = 1.3 
+
+//font-face
+@font-face {
+    font-family: font-light;
+    src: url(assets/font/fontLight.ttf); 
+}
+
+@font-face {
+    font-family: font-bolder;
+    src: url(assets/font/fontBolder.ttf); 
+}
+
+//Tipografia
+$font_light: 'font-light', sans-serif;
+$font_bolder: 'font-bolder', sans-serif;

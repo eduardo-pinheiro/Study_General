@@ -1,0 +1,28 @@
+.anime{
+    transition: 1s!important;
+}
+
+
+.anime[data-anime-type='opacity']{
+    opacity: 0!important;
+}
+
+.anime[data-anime-type='up']{
+    opacity: 0!important;
+    transform: translateY(50px)!important;   
+}
+
+.anime[data-anime-type='down']{
+    opacity: 0!important;
+    transform: translateY(-50px)!important; 
+}
+
+.anime[data-anime-type='right']{
+    opacity: 0!important;
+    transform: translateX(-50px)!important;
+}
+
+.anime[data-anime-type='left']{
+    opacity: 0!important;
+    transform: translateX(50px)!important;     
+}

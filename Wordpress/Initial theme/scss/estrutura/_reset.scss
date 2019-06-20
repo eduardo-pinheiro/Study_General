@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  overflow-x: hidden;
+
+  color: $heavy;  
+  font-family: $font_light;
+  font-size: $fontsize_context;
+  text-rendering: optimizeLegibility;
+  
+  @include device(tablet){
+    font-size: ($fontsize_context * $fontsize_porcent_tablet) / 100;
+  }
+  @include device(mobile){
+    font-size: ($fontsize_context * $fontsize_porcent_mobile) / 100;
+  }
+}
+
+body{  
+  position: relative; 
+}
+
+li{
+  list-style-type: none;
+}
+
+h1{
+  font-family: $font_bolder; 
+  font-weight: normal;
+  font-size: $font_large;
+}
+
+h2{
+  font-family: $font_bolder;
+  font-weight: normal;
+  font-size: $font_medium;
+}
+
+h3{
+  font-family: $font_bolder;
+  font-weight: normal;
+  font-size: $font_small;
+}
+
+p{
+  margin-bottom: 15px;
+  font-size: $font_small;
+}
+
+a{
+  text-decoration: none;
+  font-size: $font_small;
+  color: $soft;
+}
+
+b{
+  font-family: $font_bolder;
+  font-weight: normal;
+}
+
+button{
+  border-style: none;
+  background: transparent;
+  font-family: $font_light;
+  cursor: pointer;
+}
+
+button:active{
+  border-style: none;
+  background: transparent;
+}
+
+/*Scroll bar*/
+::-webkit-scrollbar {
+  /* scrollbar here
+  EX: 
+    width: 10px;
+    background: white;
+  */
+}
+::-webkit-scrollbar-thumb {
+  /* scrollbar cursor here
+  EX:
+    background: black;
+  */
+}
